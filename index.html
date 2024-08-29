@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porifolio-new</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b4fc90475b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- -------------------navbar-------------- -->
+
+
+    <div class="navbar">
+        <img class="logo" src="logo.png" alt="">
+        <img src="menu_open.svg" onclick="openmenu()" class='nav-mob-open' alt="" />
+        <ul id="sidemenu" class="nav-menu">
+            <img src="menu_close.svg" onclick="closemenu()" alt="" class="nav-mob-close" />
+            <li class=" active-tab"><a href="#hero" class="tab-contents" >Home</a><img class="tab-links  active-link" onclick="opentab('Hero')" src="nav_underline.svg" alt=""></li>
+            <li><a href="#about" class="tab-contents">About Me</a><img class="tab-links"  onclick="opentab('About Me')" src="nav_underline.svg" alt=""></li>
+            <li><a href="#services" class="tab-contents">Services</a><img class="tab-links"  onclick="opentab('Services')" src="nav_underline.svg" alt=""></li>
+            <li><a href="#mywork" class="tab-contents">Portfolio</a><img class="tab-links"  onclick="opentab('Portfolio')" src="nav_underline.svg" alt=""></li>
+            <li><a href="#contact" class="tab-contents">Contact Us</a><img class="tab-links"  onclick="opentab('Contact Us')" src="nav_underline.svg" alt=""></li>
+        </ul>
+        <div class="nav-connect">
+            <p><a class="anchor-link" href="#contact">Connect With Me</a></p>
+        </div>
+    </div>
+
+
+    <!-- --------------------hero------------------------ -->
+    <div id="hero" class="hero">
+        <img src="lo.png" alt="">
+        <h1> <span>I'm Ronit Soni,</span> Frontend developer based in India.</h1>
+        <p>I am a fronted developer from Churu(Rajasthan), India with few month of experience in web development.
+        </p>
+        <div class="hero-action">
+            <div class="hero-connect">
+                <a href="#contact">Connect With Me</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------------------------------------About---------------------- -->
+    <div id="about" class="about">
+        <div class="about-title">
+            <h1>About me</h1>
+            <img class="img" src="nav_underline.svg" alt="">
+        </div>
+        <div class="about-sections">
+            <div class="about-left">
+                <img src="ro.png" alt="">
+            </div>
+            <div class="about-right">
+                <div class="about-para">
+                    <p>I'm an experienced Fronted Developer with a decode of professional expertise in the fields.
+                        Thoughtout my carrer, I have had the privilege of collabrating with prestagious organizations,
+                        contribucting to their success and growth.</p>
+                    <p>My passion for Fronted Developer is not only reflected in my extensive experience but also in the
+                        enthusian and dedication I bring to each project.</p>
+                </div>
+                <div id="skill">
+                    <div id="about-skills">
+                        <p>HTML</p>
+                        <hr style="width:90% ;" />
+                    </div>
+                    <div id="about-skills">
+                        <p>CSS</p>
+                        <hr style="width: 90%;" />
+                    </div>
+                    <div id="about-skills">
+                        <p>Java Script</p>
+                        <hr style="width:40% ;" />
+                    </div>
+
+                    <div id="about-skills">
+                        <p>React Js</p>
+                        <hr style="width: 55%;" />
+                    </div>
+                    <div id="about-skills">
+                        <p>Next Js</p>
+                        <hr style="width: 30%;" />
+                    </div>
+                    <div id="about-skills">
+                        <p>Python</p>
+                        <hr style="width:68% ;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="about-achivements">
+            <div id="about-achivement">
+                <h1>3+</h1>
+                <p>MONTHS OF EXPERIENCE</p>
+            </div>
+            <hr id='hr' />
+            <div id="about-achivement">
+                <h1>6+</h1>
+                <p>PROJECTS COMPELETED</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------services---------------- -->
+    <div id='services'>
+        <div id="services-title">
+            <h1>My Services</h1>
+            <img src="theme_pattern.svg" alt="" />
+        </div>
+        <div id="services-container">
+            <div id="services-format">
+                <h3> 01</h3>
+                <h2>Web Design</h2>
+                <p>Web development is the process of planning, conceptualizing and implementing the plan for designing a
+                    website in way that is functional and offers a good user experiences...</p>
+            </div>
+            <div id="services-format">
+                <h3>02</h3>
+                <h2>Graphics design</h2>
+                <p>Graphics design is the art and practies of planning and projecting ideas and experiences with visual
+                    and textual content...</p>
+            </div>
+            <div id="services-format">
+                <h3>03</h3>
+                <h2>Social media</h2>
+                <p>Social media refer to the means of interactions among people in which they create, share or exchange
+                    information and ideas in virtual communities...</p>
+            </div>
+            <div id="services-format">
+                <h3>04</h3>
+                <h2>App design</h2>
+                <p>App development is the process of building and creating software applications that run on over mobile
+                    devices...</p>
+            </div>
+            <div id="services-format">
+                <h3>05</h3>
+                <h2>Digital marketing</h2>
+                <p>Digital marketing is the promotion and marketing of goods and services to consumers through digital
+                    channels...</p>
+            </div>
+            <div id="services-format">
+                <h3>06</h3>
+                <h2>Content writing</h2>
+                <p>Content writing is the process of creating and publishing written content for a variety of
+                    purposes...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------portfoilo--------------- -->
+
+    <div id='mywork'>
+        <div id="mywork-title">
+            <h1>My latest work</h1>
+            <img src="theme_pattern.svg" alt="" />
+        </div>
+        <div id="mywork-container">
+            <img src="Screenshot_3-7-2024_16138_.jpeg" alt="">
+            <img src="Screenshot_3-7-2024_161413_.jpeg" alt="">
+            <img src="Screenshot_3-7-2024_161438_.jpeg" alt="">
+            <img src="Screenshot_3-7-2024_161454_.jpeg" alt="">
+            <img src="Screenshot_3-7-2024_161511_.jpeg" alt="">
+            <img src="Screenshot_3-7-2024_161530_.jpeg" alt="">
+        </div>
+        <!-- <div className="mywork-showmore">
+      <p>Show More</p>
+      <img src={arrow_icon} alt="" />
+    </div> -->
+    </div>
+    <!-- ------------------------contact------------------- -->
+    <div id='contact'>
+        <div id="contact-title">
+            <h1>Get in touch</h1>
+            <img src="theme_pattern.svg" alt="" />
+        </div>
+        <div id="contact-section">
+            <div id="contact-left">
+                <h1>Let's talk</h1>
+                <p>I'm currently avaliable to take on new projects, so feel free to send me a message about anything
+                    that you want me to work on. you can contact anytime.</p>
+                <div id="contact-details">
+                    <div id="contact-detail">
+                        <img src="mail_icon.svg" alt="" />
+                        <p>Tinor@gmail.com</p>
+                    </div>
+                    <div id="contact-detail">
+                        <img src="call_icon.svg" alt="" />
+                        <p>9881756866</p>
+
+                    </div>
+                    <div id="contact-detail">
+                        <img src="location_icon.svg" alt="" />
+                        <p> Churu(Rajasthan), India</p>
+                    </div>
+                </div>
+            </div>
+            <form action="https://api.web3forms.com/submit" method="POST" id="contact-right">
+                <label htmlFor="Your Name" required> Your Name </label>
+                <input type="hidden" name="access_key" value="eb479fb3-bee0-48a8-9cb2-07efef23e2ab">
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                <input type="text" placeholder='Enter Your Name' name='name' required />
+                <label htmlFor="" required> Your Email</label>
+                <input type="Email" placeholder='Enter Your Email' name='Email' required />
+                <label htmlFor="" required>Write Your Message Here</label>
+                <textarea name="message" rows="8" placeholder='Enter Your Message' required></textarea>
+                <button id='contact-submit' type='submit' onclick="alert('Thank you for Submit😊')" >Submit Now</button>
+
+            </form>
+        </div>
+    </div>
+    <!-- ----------------------------------------footer-------------- -->
+    <div id='footer'>
+        <div id="footer-top">
+            <div id="footer-top-left">
+                <img src="lo.png" alt="" />
+                <p>I am a fronted developer from, India with few months of experience in web development</p>
+            </div>
+
+            <div id="footer-email-input">
+                <img src="user_icon.svg" alt="" />
+                <input action="https://api.web3forms.com/submit" method="POST" type="email" 
+                placeholder='Enter Your Email' />
+                <input type="hidden" name="access_key" value="eb479fb3-bee0-48a8-9cb2-07efef23e2ab">
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                <button name="submit-to-google-sheet" onclick="alert('Thank you for Subscribe😊')" type="submit"
+                    class="footer-subscribe">Subscribe</button>
+            </div>
+
+
+        </div>
+        <hr />
+        <div id="footer-bottom">
+            <p id="footer-bottom-left">
+                &copy; copyright 2024 Ronit Soni. <br> All right reserved.
+            </p>
+            <div id="footer-bottom-right">
+                <p>Term of Services</p>
+                <p>Privacy Policy</p>
+                <p>Connect with me</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        var sidemenu = document.querySelector("ul");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-500px";
+        }
+
+
+    </script>
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxe31Ar6gfdRdQPz3GKKRtSNR8jd-UZSE2NC9Q7C8BXpIvER2MLGKyICeYUuNveG00s9w/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                }
+                )
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+
+
+</body>
+
+</html>
